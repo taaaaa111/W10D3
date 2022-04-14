@@ -20,12 +20,12 @@ export default class Game {
     //   à  chaque New turn on retire un tour
   newturn() {
       this.turnLeft-=1;
-     
+    
+      let win = function()
+        for (var i=0; i<this.players.length; i++){    
+        
+      }
   }
-
-  var win = function(){
-    for (var i=0; i<this.players.length; i++){    
-    }
-  }
+ 
 }
     

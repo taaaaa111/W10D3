@@ -15,7 +15,7 @@ if(this.hp> 11) {
 else {
     this.hp+=5;
 }
-
+return 4
 
 else {
     window.alert("insufficient mana");
@@ -28,6 +28,6 @@ else {
 
     }
     dealDamage(){
-
+        return this.dmg
     }
 }
