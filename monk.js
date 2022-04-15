@@ -9,7 +9,7 @@ export default class Monk extends Character {
     Heal(){
         if(this.mana >24){
             this.mana-=25
-            console.log("il vous reste "+this.mana+"points de mana");
+            console.log(this.mana+"mana left");
             this.hp=8;
     }
     TakeDamage(){

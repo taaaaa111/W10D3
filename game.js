@@ -21,10 +21,10 @@ export default class Game {
   newturn() {
       this.turnLeft-=1;
     
-      let win = function()
-        for (var i=0; i<this.players.length; i++){    
+      // let win = function()
+      //   for (var i=0; i<this.players.length; i++){    
         
-      }
+      // }
   }
  
 }

@@ -8,7 +8,6 @@ constructor (hp=12,mana=40,dmg=4, state ="player") {
 DarkVision(){
     if(this.mana >19){
         this.mana-=20;
-        this.dimdeg=true;
         alert(this.mana+ "mana left");
         
         return 5
